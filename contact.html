@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <title>Chloe's Portfolio Site</title>
+     <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/style.prodution.css">
+    </head> 
+    <body>
+        <header class="page-header">
+          <meta name="viewport" content="width=device-width", initial-scale="1"> 
+            <img src="img/logo_transparent_background.png" alt="a black circle logo of my name in a crazy font" class="page-header_item">
+             <nav class="main-navigation page-header_item">
+             <ul role="menubar" class="navigation-list">
+               <li role="presentation">
+                 <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                 </li>
+                 <li role="presentation">
+                 <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                 </li>
+                 <li role="presentation">
+                 <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
+                 </li>
+                 <li role="presentation">
+                 <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                 </li>
+             </ul>
+             </nav>
+            </header>       
+     <h1>Contact Me</h1>
+     <form action="" method="post" id="contact-form" class="contact-form">
+        <label for="email" class="standard-label">Email:</label>
+        <input type="email" id="email" class="contact-form-item" required>
+        <label for="telephone" class="standard-label">Telephone:</label>
+        <input type="tel" id="telephone" class="contact-form-item" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+        <label for="message" class="standard-label">Message:</label>
+        <textarea maxlength="240" id="message" class="contact-form-item" required></textarea>
+        <input type="submit" value="Send Message">
+       </form>
+       <br>
+       <br>
+     <div>
+        Email: <a href="mailto:chloe.comeaux@gmail.com">chloe.comeaux@gmail.com</a><br>
+        Telephone: <a href="tel:+13373089318" aria-label="my phone number">337-308-9318</a><br>
+     </div>
+     <footer class="page-footer">
+      <p>Find me on:</p>
+      <div class="social-media">
+      <img src="img/317712_code repository_github_repository_resource_icon.svg" alt="Github">
+      <img src="img/104461_twitter_icon.svg" alt="Twitter">
+      <img src="img/287739_facebook_icon.svg" alt="Facebook">
+      </div>
+   </footer>
+     <script src="js/tota11y.min.js"></script>
+    </body>
+</html>
